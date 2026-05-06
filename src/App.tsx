@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import SocialMedia from './SocialMedia';
-import PlaceholderPage from './pages/PlaceholderPage';
+import SocialMedia from './pages/SocialMedia/SocialMedia';
+import PlaceholderPage from './pages/Placeholder';
 
 export default function App() {
   return (
